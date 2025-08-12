@@ -1,42 +1,55 @@
-🎮 Catálogo de Jogos
-Sistema web completo para cadastro, listagem, edição e exclusão de jogos, desenvolvido com:
+# Exercicio BF
 
-🛠️ Backend: Node.js + Express + MySQL
+Este é um projeto de exemplo de uma aplicação web full-stack, com um backend em Node.js e um frontend em Angular.
 
-🌐 Frontend: Angular (componentes standalone)
+## Tecnologias Utilizadas
 
-🗃️ Banco de Dados: MySQL
+*   **Backend**:
+    *   Node.js
+    *   Express.js (Framework de servidor)
+    *   `dotenv` para gerenciamento de variáveis de ambiente
+*   **Frontend**:
+    *   Angular
+    *   TypeScript
+    *   HTML / CSS
 
-✅ API RESTful com operações CRUD
+## Estrutura do Projeto
 
-📦 Tecnologias Utilizadas
-Backend
-Node.js
+O projeto está organizado da seguinte forma:
 
-Express
+```
+exercicioBF/
+├── backend/      # Contém o código do servidor (Node.js)
+└── frontend/     # Contém o código do cliente (Angular)
+```
 
-MySQL2
+## Pré-requisitos
 
-Dotenv
+Antes de começar, certifique-se de ter o seguinte software instalado em sua máquina:
 
-Cors
+- Node.js
+- npm
 
-Frontend
-Angular (Componentes standalone)
+## Instalação
 
-Angular Forms
+Siga os passos abaixo para configurar o ambiente de desenvolvimento local.
 
-Angular HttpClient
+1.  **Clone o repositório:**
+    ```bash
+    git clone <URL_DO_SEU_REPOSITORIO>
+    cd exercicioBF
+    ```
 
-🔧 Funcionalidades
-Criar jogo (nome, tipo, ano)
+2.  **Instale as dependências do Backend:**
+    Navegue até o diretório `backend` e instale os pacotes necessários.
+    ```bash
+    cd backend
+    npm install
+    ```
 
-Listar todos os jogos
-
-Editar jogo existente
-
-Excluir jogo
-
-Validações básicas no frontend e backend
-
-Comunicação entre Angular e API via serviço
+3.  **Instale as dependências do Frontend:**
+    Volte para a raiz e navegue até o diretório `frontend` para instalar seus pacotes.
+    ```bash
+    cd ../frontend
+    npm install
+    ```
