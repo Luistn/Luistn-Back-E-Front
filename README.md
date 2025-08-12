@@ -1,4 +1,4 @@
-# Exercicio BF
+# Exercicio Back e Front
 
 Este é um projeto de exemplo de uma aplicação web full-stack, com um backend em Node.js e um frontend em Angular.
 
@@ -53,3 +53,4 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento local.
     cd ../frontend
     npm install
     ```
+
